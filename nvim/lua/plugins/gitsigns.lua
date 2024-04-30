@@ -11,7 +11,6 @@ return {
       },
       change = {
         hl = "GitSignsChange",
-        -- text = "󰅰",
         text = "󰦍",
         numhl = "GitSignsChangeNr",
         linehl = "GitSignsChangeLn",
@@ -30,7 +29,6 @@ return {
       },
       changedelete = {
         hl = "GitSignsChange",
-        -- text = "󰅰",
         text = "󰦍",
         numhl = "GitSignsChangeNr",
         linehl = "GitSignsChangeLn",
