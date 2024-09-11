@@ -26,6 +26,8 @@ return {
     local capabilities = require("cmp_nvim_lsp").default_capabilities()
     local lsp_config = require("lspconfig")
 
+    lsp_config.gleam.setup({})
+
     -- Completion engine setup
     cmp.setup({
       snippet = {
